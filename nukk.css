@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.main{
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%) , url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    width: 100%;
+    margin-left: 0px;
+}
+.logo{
+    background-color: #e47312;
+    width: 13%;
+    height: 19vh;
+    text-align: center;
+    padding-top: 46px;
+    
+}
+.header-image{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+.menu a i{
+    margin: 2px;
+}
+.menu a:hover{
+    color: #e47312;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.menu{
+    background-color: white;
+    height: 15vh;
+    width: 65%;
+    text-align: end;
+    padding-top: 48px;
+    margin: 16px -15px 40px -15px;
+}
+.first-button{
+    background-color: #e47312;
+    height: 15vh;
+    padding: 20px;
+    width: 187px;
+    color: white;
+    border: none;
+}
+.main-heading{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    color: white;
+    
+}
+.main-section p{
+    font-size: 20px;
+    color: white;
+    line-height: 60px;
+    margin-top: -16px;
+}
+.second-button{
+    background-color: #e47312;
+    height: 62px;
+    padding: 20px;
+    width: 187px;
+    color: white;
+    border: none;
+    margin-top: -5px;
+}
+.main-section{
+    margin-left: 73px;
+    margin-top: 73px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    float: right;
+    background-color: black;
+    position:absolute;
+    left: 94.3%;
+    bottom: 31.8%;
+}
+.social-icon i{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    cursor: pointer;
+    
+}
+.support-section{
+    background-color: #e47312;
+    color: white;
+    width: 73%;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 24.4%;
+    top: 64.3%;
+    padding-top: 10px;
+
+}
+.support-section div a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.support-section div a:hover{
+    border-bottom: 5px solid white;
+}
+.support-section div h5{
+    font-weight: 500;
+    font-size: 16px;
+}
+.support-section div i{
+    font-size: 22px;
+}
+.services{
+    font-size: 120px;
+    color: rgba(241, 241, 247, 0.7);
+    margin-top: 150px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -32%;
+    left: 6%;
+    width: 88%;
+}
+.second-section h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.second-section p:hover{
+    border-bottom: 3px solid #e47312;
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+.specialization-section{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 53px;
+    
+}
+.specialization-section div img{
+    display: inline-block;
+    width: 100px;
+    
+}
+.specialization-section h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.specialization-section p{
+    color: #919197;
+}
+.specialization-section h5{
+    margin-top: 40px;
+    display: inline-block;
+    cursor: pointer;
+    color: #919197;
+}
+.specialization-section h5:hover{
+    border-bottom: 4px solid #e47312;
+}
+.about-heading{
+    font-size: 60px;
+    color: rgba(241, 241, 247, 0.7);
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    left: 56%;
+    z-index: -1;
+
+}
+.about-section{
+    width: 94%;
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    line-height: 22px;
+    margin-top: -128px;
+   
+   
+}
+.about-section img{
+    width: 600px;
+}
+.about-section h2{
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.about-section span:hover{
+    border-bottom: 3px solid #e47312;
+    cursor: pointer;
+    padding: 5px;
+}
+.about-2nd-section{
+    width: 85%;
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 23vh;
+
+
+  
+}
+.about-2nd-section h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: #e47312;
+}
+.about{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 62px;
+    grid-gap: 50px;
+    height: 100vh;
+}
+.work-section{
+    background-color: #f7f8fc;
+    padding: 20px;
+    height: 436vh;
+}
+.work-section h1{
+    font-size: 120px;
+    color: rgba(241, 241, 247, 0.7);
+   
+   
+}
+.work-section .work{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+    bottom: 102px;
+    left: 46px;
+    
+}
+
+.work-section h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.work-section p{
+    margin-top: 40px;
+}
+.work-section .work p:hover{
+    border-bottom: 3px solid #e47312;
+    cursor: pointer;
+   
+}
+.images-section .image .circle{
+    display: inline-block;
+    border-radius: 200px;
+    text-align: center;
+    height: 13.6vh;
+    margin: 189px;
+    margin-top: 172px;
+    background-color: #e47312;
+    color: white;
+    padding: 30px 28px 53px 28px;
+    font-size: 16px;
+    opacity: 0;
+    
+}
+.images-section .image:hover{
+    cursor: pointer;
+    
+}
+.images-section .image:hover  .circle{
+    opacity: 1;
+}
+/* .images-section .image div:hover{
+    opacity: 1;
+  
+} */
+.images-section .image{
+    height: 55vh;
+    width: 105%;
+    margin: 0px;
+    
+}
+.image-1{    
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+    
+}
+.image-2{    
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-3{    
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-4{    
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-5{    
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-6{    
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images-section{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 37px;
+    justify-content: center;
+    grid-row-gap: 18px;
+}
+.work-last-section{
+    background-image:linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #e47312;
+    text-align: center;
+    padding: 80px;
+    margin: auto -18px;
+    color: white;
+}
+.work-last-section h3{
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.work-last-section p{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 22px;
+}
+.work-last-section a{
+    text-decoration: none;
+    color: white;
+}
+.work-last-section a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.team-section h1{
+    font-size: 120px;
+    color: rgba(241, 241, 247, 0.7);
+    margin-top: 60px;
+}
+.team-section .profesnals{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+    bottom: 102px;
+    left: 46px;
+}
+.team-section .profesnals h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.team-section .profesnals p{
+    cursor: pointer;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+.team-section .profesnals p:hover{
+    border-bottom: 2px solid #e47312;
+}
+.team-images .image{
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+}
+.team-images .image p{
+    color: #919197;
+}
+.team-images div img{
+    width: 100%;
+    height: 48vh;
+    margin: 0px;
+}
+.team-images{
+    display: flex;
+    line-height: 21px;
+    
+}
+.icon{
+    font-size: 34px;
+    text-align: center;
+    background-color: #e47312;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    position: relative;
+    bottom: 38%;
+    left: 4%;
+    cursor: pointer;
+}
+.clients h1{
+    font-size: 108px;
+    color: rgba(241, 241, 247, 0.7);
+    margin:60px 5px 0px 2px;
+    position: relative;
+    top: 14%;
+    right: 7%;
+}
+.clients p{
+    color: #919197;
+}
+.clients h2{
+    font-size: 48px;
+    /* z-index: -1; */
+}
+
+.clients h5{
+    color: #919197;
+}
+.clients h4{
+    font-weight: 500;
+}
+.clients{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-column-gap: 10px;
+    text-align: center;
+    margin-top: 188px;
+}
+.clients .mark{
+    background-color: #e47312;
+    color: white;
+    border-radius: 100px;
+    padding-top: 19px;
+    display: inline-block;
+    font-size: 82px;
+    width: 23%;
+    height: 11vh;
+    position: relative;
+    bottom: 82px;
+
+}
+.first-client, .second-client, .third-client, .fourth-client{
+    background-color: white;
+    padding: 29px;
+}
+.second-container, .third-container{
+    margin: -3px;
+}
+.third-container{
+    margin-top: 85px;
+}
+.second-client, .fourth-client{
+    margin-top: 58px;
+}
+.clients h4{
+    margin-top: -70px;
+}
+.clients .first-container{
+    text-align: start;
+}
+.clients .first-container span:hover{
+    border-bottom: 2px solid #e47312;
+    cursor: pointer;
+}
+.blog{
+    margin-top: 110px;
+    margin-bottom: -174px;
+}
+.blog .news{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .news h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+.blog h1{
+    font-size: 140px;
+    color: rgba(241, 241, 247, 0.7);
+    margin:60px 5px 0px 2px;
+}
+.blog .news{
+    width: 89%;
+    position: relative;
+    bottom: 110px;
+    left: 31px;
+}
+.blog .news p{
+    cursor: pointer;
+    padding-top: 34px;
+    font-size: 14px;
+}
+.blog .news p:hover{
+    border-bottom: 2px solid #e47312;
+}
+.blog-post{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+    padding-left: 70px;
+    margin-top: 10px;
+    
+}
+.blog-post div img{
+    margin: 0px;
+    width: 100%;
+    height: 40vh;
+}
+.blog-post .blog-1, .blog-2, .blog-3{
+    background-color: #e47312;
+    line-height: 28px;
+    width: 100%;
+    height: 74vh;
+    color: white;
+    cursor: pointer;
+}
+.blog-post div p{
+    font-size: 18px;
+}
+.blog-post p{
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.blog-post div h5{
+    display: inline-block;
+    border-bottom: 3px solid #e79c5a;
+    cursor: pointer;
+}
+.blog-post div h5:hover{
+    border-bottom: 3px solid white;
+}
+.calender{
+    width: 52%;
+    font-size: 16px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5% 5% 5%;
+    grid-column-gap: 51%;
+    position: relative;
+    top: 156px;
+    left: 449px;
+}
+.calender .date{
+    background-color: #e47312;
+    border: 1px solid #e47312;
+    margin: 0px;
+    width: 70px;
+    cursor: pointer;
+    color: white;
+}
+.calender .month{
+    background-color: white;
+    border: 1px solid white;
+    margin: 0px;
+    padding: 10px;
+    width: 70px;
+    cursor: pointer;
+    color: #919197;
+}
+.logo-section{
+    background-color: #e47312;
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 45px;
+    font-size: 20px;
+    margin-top: 150px;
+    
+}
+.logo-section h4, .logos{
+    margin: auto 20px;
+}
+footer{
+    background-color: #0a1229;
+    height: 85vh;
+    width: 80%;
+    color: white;
+    padding: 44px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 32px;
+    position: relative;
+    left: 6%;
+}
+footer .empty{
+    width: 100%;
+    background-color: #e47312;
+    height: 0.1vh;
+    position: relative;
+    top: 4.6%;
+    right: 8%;
+}
+footer .first-colum, .second-colum, .third-colum{
+    width: 200%;
+}
+footer h3{
+    font-size: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+}
+footer a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.third-colum h4{
+    display: inline-block;
+    margin-bottom: 0px;
+
+
+}
+.third-colum i{
+    font-size: 25px;
+    margin-left: 0px;
+}
+.third-colum p{
+    margin-left: 50px;
+}
+.footer-logo{
+    background-color: #e47312;
+    width: 13%;
+    height: 19vh;
+    text-align: center;
+    padding-top: 46px;
+    position: absolute;
+    top: 75.5%;
+    right: 80%;
+    
+}
+
